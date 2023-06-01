@@ -70,3 +70,25 @@ html, body {
 .recommendations li:hover {
     background-color: #ddd;
 }
+
+.github{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: dotted;
+}
+
+.credits{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.india{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

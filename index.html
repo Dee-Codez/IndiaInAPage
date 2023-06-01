@@ -9,11 +9,15 @@
     <title>IndiaInAPage</title>
 </head>
 <body>
-    <h1 style="text-align: center; color: #ffffff;">INDIA</h1>
+    <div class="india">
+        <h1 style="color: #ff9100;">IN</h1>
+        <h1 style="background: -webkit-linear-gradient(#ffffff, #ffffff, #ffffff, #ffffff, #adb4fa, #7b7dff, #7b87ff, #adb4fa, #ffffff, #ffffff, #ffffff, #ffffff);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">D</h1>
+        <h1 style="color: #09ff00;">IA</h1>
+    </div>
     <div class="srch">
         <div class="search-container">
             <form class="search-form" action="/search" method="get" onsubmit="handleFormSubmission(event)">
-                <input class="search-input" type="text" name="q" placeholder="Enter your search query" oninput="showRecommendations(this.value)">
+                <input class="search-input" type="text" name="q" placeholder="Enter Name Of State/UT" oninput="showRecommendations(this.value)">
                 <button class="search-button" type="submit">Search</button>
                 <ul class="recommendations" id="recommendations"></ul>
             </form>
@@ -68,5 +72,7 @@
             </g>
         </svg>
     </div>
+    <a href="https://github.com/Dee-Codez/IndiaInAPage"><div class="github">Repository Link</div></a>
+    <div class="credits">Made With ❤ By DebsPats ©</div>
 </body>
 </html>
