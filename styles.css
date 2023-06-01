@@ -30,3 +30,43 @@ html, body {
     transition: 0.6s;
     cursor: pointer;
 }
+
+.search-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search-form {
+    display: inline-block;
+}
+
+.search-input {
+    padding: 10px;
+    width: 300px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #00aeff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.recommendations {
+    margin-top: 10px;
+    text-align: left;
+    max-width: 300px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.recommendations li {
+    padding: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.recommendations li:hover {
+    background-color: #ddd;
+}
